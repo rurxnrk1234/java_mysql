@@ -4,8 +4,8 @@ public class app123 {
    static final String DB_URL = "jdbc:mysql://localhost/world";
    static final String USER = "root";
    static final String PASS = "tbrs00002b";
-   static final String QUERY = "select ID, NAME, CountryCode, District, Population" +
-                                "from city";
+   static final String QUERY = "select ID, NAME, CountryCode, District, Population " +
+                                "from country";
 
    public static void main(String[] args) {
       // Open a connection
@@ -16,9 +16,9 @@ public class app123 {
          // Extract data from result set
          while (rs.next()) {
             // Retrieve by column name
-            System.out.print("ID: " + rs.getInt("id"));
-            System.out.print(",CountryCode: " + rs.getString("CountryCode"));
-            System.out.print(", NAME: " + rs.getString("NAME"));
+            System.out.println("ID: " + rs.getInt("id"));
+            System.out.println(",CountryCode: " + rs.getString("CountryCode"));
+            System.out.println(", NAME: " + rs.getString("NAME"));
             System.out.println(", District: " + rs.getString("District"));
             System.out.println(", Population: " + rs.getInt("Population"));
             
