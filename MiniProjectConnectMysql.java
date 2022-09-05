@@ -14,8 +14,9 @@ public class MiniProjectConnectMysql {
         // 캐치문
 
         
-        return;
+        //return;
     }
 
 }
+
 
