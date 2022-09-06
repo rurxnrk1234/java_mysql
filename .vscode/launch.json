@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hi22",
+            "request": "launch",
+            "mainClass": "chap5.Hi22",
+            "projectName": "java_mysql_8cde7486"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConnectMysql",
+            "request": "launch",
+            "mainClass": "java.ConnectMysql",
+            "projectName": "java_mysql_8cde7486"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiniProjectConnectMysql",
+            "request": "launch",
+            "mainClass": "java.MiniProjectConnectMysql",
+            "projectName": "java_mysql_8cde7486"
+        },
+        {
+            "type": "java",
+            "name": "Launch TermProjectDemo",
+            "request": "launch",
+            "mainClass": "java.TermProjectDemo",
+            "projectName": "java_mysql_8cde7486"
+        },
+        {
+            "type": "java",
+            "name": "Launch app123",
+            "request": "launch",
+            "mainClass": "java.app123",
+            "projectName": "java_mysql_8cde7486"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "team.App",
+            "projectName": "java_mysql_8cde7486"
+        }
+    ]
+}

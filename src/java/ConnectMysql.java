@@ -1,3 +1,4 @@
+package java;
 import java.sql.*;
 
 public class ConnectMysql {
